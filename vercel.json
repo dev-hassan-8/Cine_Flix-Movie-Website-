@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/movies", "destination": "/movies.html" },
+    { "source": "/movie-detail", "destination": "/movie-detail.html" },
+    { "source": "/my-list", "destination": "/my-list.html" },
+    { "source": "/login", "destination": "/login.html" },
+    { "source": "/signup", "destination": "/signup.html" }
+  ]
+}

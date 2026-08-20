@@ -139,7 +139,7 @@ async function loadMovieDetails(movieId) {
                         <button class="btn btn-success btn-lg me-2" onclick="addToMyList(${movieId})">
                             <i class="bi bi-plus-circle"></i> Add to My List
                         </button>
-                        <a href="movies.php" class="btn btn-outline-primary btn-lg">
+                        <a href="movies.html" class="btn btn-outline-primary btn-lg">
                             <i class="bi bi-arrow-left"></i> Back to Movies
                         </a>
                         <div class="btn-group mt-3" role="group">
@@ -336,7 +336,7 @@ async function checkAuthAndLoadMovie() {
                 <div class="text-center">
                     <i class="bi bi-lock" style="font-size: 3rem; color: var(--primary-color);"></i>
                     <p class="mt-3">Please login to watch full movies</p>
-                    <a href="login.php" class="btn btn-primary mt-2">Login</a>
+                    <a href="login.html" class="btn btn-primary mt-2">Login</a>
                 </div>
             `;
         }
@@ -376,7 +376,7 @@ function showError(message) {
                 <h4 class="alert-heading">Error!</h4>
                 <p>${message}</p>
                 <hr>
-                <a href="movies.php" class="btn btn-primary">Go to Movies</a>
+                <a href="movies.html" class="btn btn-primary">Go to Movies</a>
             </div>
         `;
     }

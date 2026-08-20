@@ -456,7 +456,7 @@ async function viewMovieDetails(movieId) {
                         <button class="btn btn-success" onclick="addToMyList(${movieId}); bootstrap.Modal.getInstance(document.getElementById('movieModal')).hide();">
                             <i class="bi bi-plus-circle"></i> Add to My List
                         </button>
-                        <a href="movie-detail.php?id=${movieId}" class="btn btn-primary">
+                        <a href="movie-detail.html?id=${movieId}" class="btn btn-primary">
                             <i class="bi bi-arrow-right-circle"></i> View Full Details
                         </a>
                         ${trailerUrl ? `

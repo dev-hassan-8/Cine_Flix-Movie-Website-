@@ -827,7 +827,7 @@ async function watchTrailer(movieId, movieTitle = '') {
 
 // View movie details
 async function viewMovieDetails(movieId) {
-    window.location.href = `movie-detail.php?id=${movieId}`;
+    window.location.href = `movie-detail.html?id=${movieId}`;
 }
 
 // Add movie to my list

@@ -208,7 +208,7 @@ async function viewMovieDetails(movieId) {
                         <button class="btn btn-danger" onclick="removeFromMyList(${movieId}); bootstrap.Modal.getInstance(document.getElementById('movieModal')).hide();">
                             <i class="bi bi-trash"></i> Remove from List
                         </button>
-                        <a href="movie-detail.php?id=${movieId}" class="btn btn-primary">
+                        <a href="movie-detail.html?id=${movieId}" class="btn btn-primary">
                             <i class="bi bi-arrow-right-circle"></i> View Full Details
                         </a>
                     </div>
